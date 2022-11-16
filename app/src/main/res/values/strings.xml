@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">YoloDepthestimationTest</string>
+    <string name="yolo">Yolo</string>
+    <string name="DepthEstimation">Depth estimation</string>
 </resources>

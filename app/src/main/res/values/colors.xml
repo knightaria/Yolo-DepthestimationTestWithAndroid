@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +7,114 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#61cbec</color>
+    <color name="colorPrimaryDark">#4682c4</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="White">#fff</color>
+    <color name="tranpancy">#00CDDC39</color>
+    <color name="bg">#c6d6d6</color>
+    <color name="Text">#4682c4</color>
+    <color name="Stroke">#707070</color>
+    <color name="megaBack">#f2e6e4e7</color>
+    <color name="megaStroke">#d6ced9</color>
+    <color name="Black">#000</color>
+
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+
+    <color name="Lime">#FFCDDC39</color>
+    <color name="LimeTranslucentBorder">#4cCDDC39</color>
+    <color name="LimeTranslucent">#26CDDC39</color>
+
+    <color name="hint">#8f8f8f</color>
+    <color name="red">#ff0000</color>
+    <color name="oRed">#ff4200</color>
+    <color name="orange">#e34804</color>
+    <color name="dangerDialog">#D81B60</color>
+    <color name="dangerDialogLight">#981B60</color>
+    <color name="successDialog">#4BB543</color>
+    <color name="successDialogLight">#9BB543</color>
+    <color name="warningDialog">#FFCC00</color>
+    <color name="gray">#444</color>
+    <color name="cream">#fff5f5</color>
+    <color name="styleBlue">#3c5dda</color>
+    <color name="styleBlueTransparency">#263c5dda</color>
+    <color name="styleViolet">#8d64e6</color>
+    <color name="styleVioletTransparency">#268d64e6</color>
+    <color name="lightViolet">#8C9EFF</color>
+
+    <color name="slowGreen">#91B754</color>
+    <color name="slowGreenFlag">#91b754</color>
+    <color name="mediumGreen">#6b9823</color>
+    <color name="deadGreen">#b5c1a3</color>
+    <color name="speedViolet">#3c055b</color>
+    <color name="speedVioletTransparent">#803c055b</color>
+    <color name="slowViolet">#8f50e0</color>
+    <color name="mediumViolet">#8c33cb</color>
+    <color name="ghostViolet">#e6e4e7</color>
+    <color name="deadViolet">#3c055b</color>
+    <color name="deadDarkViolet">#371d46</color>
+    <color name="tomatoRed">#d81b1b</color>
+    <color name="darkRedII">#970b33</color>
+    <color name="darkRed">#a90e21</color>
+    <color name="darkRedText">#3f090d</color>
+    <!--    <color name="darkRedText">#1f0002</color>-->
+    <color name="slowGrayCB">#cbcbcb</color>
+    <color name="slowGray">#e2e2e2</color>
+    <color name="slowGray64">#646464</color>
+    <color name="slowGrayF7">#f7f7f7</color>
+    <color name="slowGrayEF">#efefef</color>
+    <color name="slowGrayE0">#e0e0e0</color>
+    <color name="slowGrayEB">#ebebeb</color>
+    <color name="slowGrayE">#eeeeee</color>
+    <color name="ghostWhite">#ccffffff</color>
+    <color name="ghostBlack">#03000000</color>
+    <color name="SlowGreenGray">#a5af96</color>
+    <color name="deepGray">#707070</color>
+
+
+    <color name="deadBlue">#23385f</color>
+
+    <color name="deadPurple">#b4a0ff</color>
+
+
+
+
+    <color name="support">#26A69A</color>
+
+    <color name="chatOut">#d86cd5</color>
+    <color name="chatIn">#6c7fd8</color>
+
+    <color name="chat">#C5EFF4</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent10">#0dffffff</color>
+
+    <color name="mtrl_textinput_defult_box_stroke_color" tools:override="true">#8d64e6</color>
+
+    <color name="DarkRed">#400543</color>
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#79717c</color>
+    <color name="slowYellow">#79717c</color>
+
+    <color name="greenBlue">#009dae</color>
+    <color name="mediumGreenBlue">#71dfe7</color>
+    <color name="slowGreenBlue">#c2fff9</color>
+    <color name="Yellow">#ffe652</color>
+
+    <color name="transparentDarkGrayBlue">#cc232f34</color>
+    <color name="mediumGrayBlue">#344955</color>
+    <color name="darkGrayBlue">#232f34</color>
+    <color name="slowGrayBlue">#4a6572</color>
+    <color name="grayYellow">#f9aa33</color>
+    <color name="dirtiesOrange">#f96b33</color>
+    <color name="grayBlue">#D2DBE0</color>
+
+
+
 </resources>
