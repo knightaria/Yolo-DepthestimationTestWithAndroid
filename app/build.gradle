@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.daniel.yolodepthestimationtest"
-        minSdk 23
+        minSdk 25
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -38,14 +38,40 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
     //pytorch
-    implementation 'org.pytorch:pytorch_android_lite:1.13.0'
-    implementation 'org.pytorch:pytorch_android_torchvision:1.13.0'
+    def pytorch_version = '1.9.0'
+    //noinspection GradleDependency
+    implementation "org.pytorch:pytorch_android_lite:${pytorch_version}"
+    //noinspection GradleDependency
+    implementation "org.pytorch:pytorch_android_torchvision:${pytorch_version}"
 
-    def camerax_version = '1.1.0-beta01'
-    implementation "androidx.camera:camera-core:${camerax_version}"
+    //cameraX
+    def camerax_version = '1.1.0'
+    //noinspection GradleDependency
+    implementation "androidx.camera:camera-core:$camerax_version"
+    //noinspection GradleDependency
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+    //noinspection GradleDependency
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+    //noinspection GradleDependency
+    implementation "androidx.camera:camera-video:$camerax_version"
+    //noinspection GradleDependency
+    implementation "androidx.camera:camera-view:$camerax_version"
+    implementation "androidx.camera:camera-extention:$camerax_version"
+
+
+/*
+    def camerax_version = "1.1.0"
+// The following line is optional, as the core library is included indirectly by camera-camera2
+    implementation "androidx.camera:camera:${camerax_version}"
     implementation "androidx.camera:camera-camera2:${camerax_version}"
-    implementation "androidx.camera:camera-lifesycle:${camerax_version}"
-    implementation "androidx.camera:camera-video:${camerax_version}"
+// If you want to additionally use the CameraX Lifecycle library
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+// If you want to additionally use the CameraX View class
     implementation "androidx.camera:camera-view:${camerax_version}"
-    implementation "androidx.camera:camera-extention:${camerax_version}"
+// If you want to additionally use the CameraX Extensions library
+    implementation "androidx.camera:camera-extensions:${camerax_version}"
+*/
+
+
+
 }

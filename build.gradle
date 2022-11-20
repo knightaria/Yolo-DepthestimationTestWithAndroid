@@ -4,8 +4,12 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://www.jitpack.io' }
+
     }
 }
+
+
 
 plugins {
     id 'com.android.application' version '7.3.0' apply false
